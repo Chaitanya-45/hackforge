@@ -1,8 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './Chatbot.css'; // Import your updated chatbot CSS here
 
-const API_KEY = "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"; 
-const API_URL = "https://api.openai.com/v1/chat/completions";
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
